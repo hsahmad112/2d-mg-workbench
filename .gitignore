@@ -1,3 +1,30 @@
+# PyTorch Model Checkpoints & Weights (~280 MB+)
+*.pth
+*.pt
+*.bin
+*.onnx
+
+# Jupyter Notebook Checkpoints & Autosaves
+.ipynb_checkpoints/
+.ipynb
+
+# Data Files & Datasets
+/data/
+/unzipped/
+*.csv
+*.txt
+
+# Python & Environment Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# System Files
+.DS_Store
+
 /data
 /unzipped
 

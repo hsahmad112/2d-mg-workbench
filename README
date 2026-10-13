@@ -1,0 +1,24 @@
+# project spec & tech stack
+stack
+    frontend: React + Redux RTK (MUI + SASS)
+    backend: Python (FastAPI / Django)
+    db: Postgres + pgvector
+    Inf: Kubernetes, Docker, Terraform, Ansible
+    CI/CD & test: GitHub Actions, Cypress, Jest
+    Monitoring: Datadog, Sentry
+
+auth/ admin
+    standard user signup/login + email verification flow
+    OAuth integration (Google / Outlook SSO)
+    role-based user management & access controls
+
+project admin & security
+    full CRUD for projects + user permissions per project
+    secret keys: auto-generate project API secret key on creation
+    require secret key verification for high-risk actions
+
+local vision / multimodal model API
+    pull list of locally downloaded open-source HuggingFace / Ollama vision models over API
+    build a config layer to support a select set first
+    labled .dicom files, extract metadata, insights out (classification, metadata csv (PCA analysis on that?), natural langauge select statements). 
+    classification of new image, confidence rating,   
